@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "remove-scrollbars",
+  "version": "0.1",
+  "description": "A stupid, simple extension that hides all scrollbars in Chrome with one line of CSS.",
+ 
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "matches": ["<all_urls>"]
+  }]
+ 
+}
